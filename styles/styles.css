@@ -1,0 +1,7 @@
+.hero{ background: url(../assets/images/hero.jpg) center / cover; }
+
+/*de 769px a 1024px*/
+@media (max-width: 1024px) { .hero { background: url(../assets/images/hero-tablet.jpg) center / cover; } }
+
+/*de 0 a 768px*/
+@media (max-width: 768px) { .hero { background: url(../assets/images/hero-mobile.jpg) center / cover; } }
