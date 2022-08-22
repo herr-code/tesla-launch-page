@@ -7,25 +7,29 @@
 @media (max-width: 768px) { .hero { background: url(../assets/images/hero-mobile.jpg) center / cover; } }
 
 .navbar-burger {
-	width: auto;
+  width: auto;
 }
 
 .navbar-burger:hover {
-	background-color: transparent;
+  background-color: transparent;
 }
 
 .navbar-burger > a {
-	background-color: rgba(0,0,0,0.06);
-	border-radius: 10px;
-	padding: 0.1em 1em;
-	display: inline-block;
+  background-color: rgba(0,0,0,0.06);
+  border-radius: 10px;
+  padding: 0.1em 1em;
+  display: inline-block;
 }
 
 a.navbar-item {
-	transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
 }
 
 a.navbar-item:hover {
-	background-color:rgba(0,0,0,0.06);
-	border-radius: 10px;
+  background-color:rgba(0,0,0,0.06);
+  border-radius: 10px;
+}
+
+.hero-body > div {
+	top: 75px;
 }
