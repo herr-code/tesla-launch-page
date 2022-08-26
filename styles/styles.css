@@ -47,4 +47,11 @@ a.navbar-item:hover {
   .fullwidth-container {
     margin-top: 1rem;
   }
+  .hero-foot {
+    margin-bottom: 20px;
+  }
+}
+
+.is-overlay > svg {
+  top: 93%;
 }
