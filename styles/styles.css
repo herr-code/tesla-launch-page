@@ -26,10 +26,25 @@ a.navbar-item {
 }
 
 a.navbar-item:hover {
-  background-color:rgba(0,0,0,0.06);
+  background-color: rgba(0,0,0,0.06);
   border-radius: 10px;
 }
 
 .hero-body > div {
-	top: 75px;
+  top: 75px;
+}
+
+.level {
+  max-width: 768px;
+  min-width: 320px;
+}
+
+.fullwidth-container {
+  width: 100%;
+}
+
+@media (max-width: 475px) {
+  .fullwidth-container {
+    margin-top: 1rem;
+  }
 }
