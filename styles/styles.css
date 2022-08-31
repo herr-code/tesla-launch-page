@@ -43,6 +43,10 @@ a.navbar-item:hover {
   width: 100%;
 }
 
+.fullwidth-container > a {
+  z-index: 1;
+}
+
 @media (max-width: 475px) {
   .fullwidth-container {
     margin-top: 1rem;
